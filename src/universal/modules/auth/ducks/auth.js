@@ -31,7 +31,7 @@ const initialState = iMap({
   })
 });
 
-export default function reducer(state = initialState, action = {}) {
+export default function reducer(state, initialState, action) {
   switch (action.type) {
     case LOGIN_USER_REQUEST:
     case SIGNUP_USER_REQUEST:
