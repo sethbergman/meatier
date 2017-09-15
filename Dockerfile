@@ -18,4 +18,4 @@ EXPOSE 28015 29015 8080
 VOLUME ["/rethinkdb"]
 WORKDIR /rethinkdb
 ENTRYPOINT ["/usr/bin/rethinkdb"]
-CMD ["--help"]
+CMD ["npm", "run", "quickstart"]
