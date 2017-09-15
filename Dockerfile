@@ -1,7 +1,7 @@
 # Dockerfile for Rethinkdb
 # http://www.rethinkdb.com/
 
-FROM NODE 8
+FROM ubuntu
 
 RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
 RUN apt-get update

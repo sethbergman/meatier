@@ -1,0 +1,1427 @@
++ export DOKKU_DISTRO
+++ . /etc/os-release
+++ echo ubuntu
++ DOKKU_DISTRO=ubuntu
++ export DOKKU_IMAGE=gliderlabs/herokuish
++ DOKKU_IMAGE=gliderlabs/herokuish
++ export DOKKU_LIB_ROOT=/var/lib/dokku
++ DOKKU_LIB_ROOT=/var/lib/dokku
++ export PLUGIN_PATH=/var/lib/dokku/plugins
++ PLUGIN_PATH=/var/lib/dokku/plugins
++ export PLUGIN_AVAILABLE_PATH=/var/lib/dokku/plugins/available
++ PLUGIN_AVAILABLE_PATH=/var/lib/dokku/plugins/available
++ export PLUGIN_ENABLED_PATH=/var/lib/dokku/plugins/enabled
++ PLUGIN_ENABLED_PATH=/var/lib/dokku/plugins/enabled
++ export PLUGIN_CORE_PATH=/var/lib/dokku/core-plugins
++ PLUGIN_CORE_PATH=/var/lib/dokku/core-plugins
++ export PLUGIN_CORE_AVAILABLE_PATH=/var/lib/dokku/core-plugins/available
++ PLUGIN_CORE_AVAILABLE_PATH=/var/lib/dokku/core-plugins/available
++ export PLUGIN_CORE_ENABLED_PATH=/var/lib/dokku/core-plugins/enabled
++ PLUGIN_CORE_ENABLED_PATH=/var/lib/dokku/core-plugins/enabled
++ export DOKKU_API_VERSION=1
++ DOKKU_API_VERSION=1
++ export DOKKU_NOT_IMPLEMENTED_EXIT=10
++ DOKKU_NOT_IMPLEMENTED_EXIT=10
++ export DOKKU_VALID_EXIT=0
++ DOKKU_VALID_EXIT=0
++ export DOKKU_LOGS_DIR=/var/log/dokku
++ DOKKU_LOGS_DIR=/var/log/dokku
++ export DOKKU_EVENTS_LOGFILE=/var/log/dokku/events.log
++ DOKKU_EVENTS_LOGFILE=/var/log/dokku/events.log
++ export DOKKU_CONTAINER_LABEL=dokku
++ DOKKU_CONTAINER_LABEL=dokku
++ export DOKKU_GLOBAL_RUN_ARGS=--label=dokku
++ DOKKU_GLOBAL_RUN_ARGS=--label=dokku
++ source /var/lib/dokku/core-plugins/available/common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
++ parse_args run meatier export /home/seth/.ssh
++ declare 'desc=top-level cli arg parser'
++ local next_index=1
++ local skip=false
++ args=("$@")
++ local args
++ for arg in '"$@"'
++ false
++ case "$arg" in
++ local next_index=2
++ for arg in '"$@"'
++ false
++ case "$arg" in
++ local next_index=3
++ for arg in '"$@"'
++ false
++ case "$arg" in
++ local next_index=4
++ for arg in '"$@"'
++ false
++ case "$arg" in
++ local next_index=5
++ return 0
++ args=("$@")
++ [[ run =~ ^--.* ]]
++ has_tty
++ declare 'desc=return 0 if we have a tty'
+++ /usr/bin/tty
++ [[ /dev/pts/0 == \n\o\t\ \a\ \t\t\y ]]
++ return 0
+++ id -un
++ [[ dokku != \d\o\k\k\u ]]
+++ id -un
++ [[ dokku != \r\o\o\t ]]
++ [[ run =~ ^plugin:.* ]]
+++ id -un
++ [[ dokku != \r\o\o\t ]]
++ [[ run == \s\s\h\-\k\e\y\s\:\a\d\d ]]
++ [[ -n run meatier export /home/seth/.ssh ]]
++ export -n SSH_ORIGINAL_COMMAND
++ [[ run =~ config-* ]]
++ [[ run =~ docker-options* ]]
++ set -f
++ /usr/bin/dokku run meatier export /home/seth/.ssh
++ export DOKKU_DISTRO
+++ . /etc/os-release
+++ echo ubuntu
++ DOKKU_DISTRO=ubuntu
++ export DOKKU_IMAGE=gliderlabs/herokuish
++ DOKKU_IMAGE=gliderlabs/herokuish
++ export DOKKU_LIB_ROOT=/var/lib/dokku
++ DOKKU_LIB_ROOT=/var/lib/dokku
++ export PLUGIN_PATH=/var/lib/dokku/plugins
++ PLUGIN_PATH=/var/lib/dokku/plugins
++ export PLUGIN_AVAILABLE_PATH=/var/lib/dokku/plugins/available
++ PLUGIN_AVAILABLE_PATH=/var/lib/dokku/plugins/available
++ export PLUGIN_ENABLED_PATH=/var/lib/dokku/plugins/enabled
++ PLUGIN_ENABLED_PATH=/var/lib/dokku/plugins/enabled
++ export PLUGIN_CORE_PATH=/var/lib/dokku/core-plugins
++ PLUGIN_CORE_PATH=/var/lib/dokku/core-plugins
++ export PLUGIN_CORE_AVAILABLE_PATH=/var/lib/dokku/core-plugins/available
++ PLUGIN_CORE_AVAILABLE_PATH=/var/lib/dokku/core-plugins/available
++ export PLUGIN_CORE_ENABLED_PATH=/var/lib/dokku/core-plugins/enabled
++ PLUGIN_CORE_ENABLED_PATH=/var/lib/dokku/core-plugins/enabled
++ export DOKKU_API_VERSION=1
++ DOKKU_API_VERSION=1
++ export DOKKU_NOT_IMPLEMENTED_EXIT=10
++ DOKKU_NOT_IMPLEMENTED_EXIT=10
++ export DOKKU_VALID_EXIT=0
++ DOKKU_VALID_EXIT=0
++ export DOKKU_LOGS_DIR=/var/log/dokku
++ DOKKU_LOGS_DIR=/var/log/dokku
++ export DOKKU_EVENTS_LOGFILE=/var/log/dokku/events.log
++ DOKKU_EVENTS_LOGFILE=/var/log/dokku/events.log
++ export DOKKU_CONTAINER_LABEL=dokku
++ DOKKU_CONTAINER_LABEL=dokku
++ export DOKKU_GLOBAL_RUN_ARGS=--label=dokku
++ DOKKU_GLOBAL_RUN_ARGS=--label=dokku
++ source /var/lib/dokku/core-plugins/available/common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
++ parse_args run meatier export /home/seth/.ssh
++ declare 'desc=top-level cli arg parser'
++ local next_index=1
++ local skip=false
++ args=("$@")
++ local args
++ for arg in '"$@"'
++ false
++ case "$arg" in
++ local next_index=2
++ for arg in '"$@"'
++ false
++ case "$arg" in
++ local next_index=3
++ for arg in '"$@"'
++ false
++ case "$arg" in
++ local next_index=4
++ for arg in '"$@"'
++ false
++ case "$arg" in
++ local next_index=5
++ return 0
++ args=("$@")
++ [[ run =~ ^--.* ]]
++ has_tty
++ declare 'desc=return 0 if we have a tty'
+++ /usr/bin/tty
++ [[ /dev/pts/0 == \n\o\t\ \a\ \t\t\y ]]
++ return 0
+++ id -un
++ [[ dokku != \d\o\k\k\u ]]
+++ id -un
++ [[ dokku != \r\o\o\t ]]
++ [[ run =~ ^plugin:.* ]]
+++ id -un
++ [[ dokku != \r\o\o\t ]]
++ [[ run == \s\s\h\-\k\e\y\s\:\a\d\d ]]
++ [[ -n '' ]]
++ dokku_auth run meatier export /home/seth/.ssh
++ declare 'desc=calls user-auth plugin trigger'
++ export SSH_USER=dokku
++ SSH_USER=dokku
++ export SSH_NAME=admin
++ SSH_NAME=admin
++ plugn trigger user-auth dokku admin run meatier export /home/seth/.ssh
++ source /var/lib/dokku/core-plugins/available/common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
++ [[ ! -n '' ]]
++ source /var/lib/dokku/core-plugins/available/common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
++ [[ run =~ (ssh-keys:add|ssh-keys:remove) ]]
++ return 0
++ case "$1" in
++ execute_dokku_cmd run meatier export /home/seth/.ssh
++ declare 'desc=executes dokku sub-commands'
++ local PLUGIN_NAME=run
++ local PLUGIN_CMD=run
++ local implemented=0
++ local script
++ argv=("$@")
++ local argv
++ case "$PLUGIN_NAME" in
++ local PLUGIN_NAME=00_dokku-standard
+++ readlink -f /var/lib/dokku/plugins/enabled/00_dokku-standard
++ [[ /var/lib/dokku/core-plugins/available/00_dokku-standard == *core-plugins* ]]
++ [[ run == \r\u\n ]]
++ shift 1
++ [[ ! -z '' ]]
++ set -- run meatier export /home/seth/.ssh
++ [[ -x /var/lib/dokku/plugins/enabled/00_dokku-standard/subcommands/default ]]
++ [[ -x /var/lib/dokku/plugins/enabled/00_dokku-standard/subcommands/run ]]
++ /var/lib/dokku/plugins/enabled/00_dokku-standard/subcommands/run run meatier export /home/seth/.ssh
++ source /var/lib/dokku/core-plugins/available/common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
++ source /var/lib/dokku/core-plugins/available/ps/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
+++ source /var/lib/dokku/core-plugins/available/common/functions
++++ set -eo pipefail
++++ [[ -n 1 ]]
++++ set -x
+++ source /var/lib/dokku/plugins/available/config/functions
++++ set -eo pipefail
++++ [[ -n 1 ]]
++++ set -x
++++ source /var/lib/dokku/core-plugins/available/common/functions
+++++ set -eo pipefail
+++++ [[ -n 1 ]]
+++++ set -x
++ source /var/lib/dokku/plugins/available/config/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
+++ source /var/lib/dokku/core-plugins/available/common/functions
++++ set -eo pipefail
++++ [[ -n 1 ]]
++++ set -x
++ dokku_run_cmd run meatier export /home/seth/.ssh
++ declare 'desc=runs command in container based on app image'
++ local cmd=run
++ [[ -z meatier ]]
++ local APP=meatier
+++ get_running_image_tag meatier
+++ declare 'desc=retrieve current image tag for a given app. returns empty string if no deployed containers are found'
+++ local APP=meatier
+++ [[ ! -n meatier ]]
+++ verify_app_name meatier
+++ declare 'desc=verify app name format and app existence'
+++ local APP=meatier
+++ [[ ! -n meatier ]]
+++ [[ ! meatier =~ ^[a-z].* ]]
+++ [[ ! -d /home/dokku/meatier ]]
+++ return 0
+++ CIDS=($(get_app_container_ids "$APP"))
++++ get_app_container_ids meatier
++++ declare 'desc=returns list of docker container ids for given app and optional container_type'
++++ local APP=meatier
++++ local CONTAINER_TYPE=
++++ verify_app_name meatier
++++ declare 'desc=verify app name format and app existence'
++++ local APP=meatier
++++ [[ ! -n meatier ]]
++++ [[ ! meatier =~ ^[a-z].* ]]
++++ [[ ! -d /home/dokku/meatier ]]
++++ return 0
++++ [[ -f /home/dokku/meatier/CONTAINER ]]
++++ [[ -n '' ]]
++++ local 'CONTAINER_PATTERN=/home/dokku/meatier/CONTAINER.*'
++++ shopt -s nullglob
++++ local DOKKU_CID_FILE
++++ for DOKKU_CID_FILE in '$CONTAINER_PATTERN'
++++ local 'DOKKU_CIDS+= '
++++ local DOKKU_CIDS+=7dc841ee8f994f02fd93dee1cb48ff720c24b7b6c9ff645ab69b8c4ba0c8f715
++++ local 'DOKKU_CIDS+= '
++++ shopt -u nullglob
++++ echo ' 7dc841ee8f994f02fd93dee1cb48ff720c24b7b6c9ff645ab69b8c4ba0c8f715 '
+++ local CIDS
++++ awk -F: '{ print $2 }'
++++ docker inspect -f '{{ .Config.Image }}' 7dc841ee8f994f02fd93dee1cb48ff720c24b7b6c9ff645ab69b8c4ba0c8f715
+++ local RUNNING_IMAGE_TAG=latest
+++ echo latest
++ local IMAGE_TAG=latest
+++ get_deploying_app_image_name meatier latest
+++ declare 'desc=return deploying image identifier for a given app, tag tuple. validate if tag is presented'
+++ local APP=meatier
+++ local IMAGE_TAG=latest
+++ IMAGE_REPO=
+++ [[ -z meatier ]]
++++ plugn trigger deployed-app-repository meatier
++ source /var/lib/dokku/core-plugins/available/common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
++ [[ ! -n '' ]]
+++ local IMAGE_REMOTE_REPOSITORY=
++++ plugn trigger deployed-app-image-tag meatier
++ source /var/lib/dokku/core-plugins/available/common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
++ [[ ! -n '' ]]
+++ local NEW_IMAGE_TAG=
++++ plugn trigger deployed-app-image-repo meatier
++ source /var/lib/dokku/core-plugins/available/common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
++ [[ ! -n '' ]]
+++ local NEW_IMAGE_REPO=
+++ [[ -n '' ]]
+++ [[ -n '' ]]
+++ [[ -z '' ]]
++++ get_app_image_repo meatier
++++ declare 'desc=central definition of image repo pattern'
++++ local APP=meatier
++++ local IMAGE_REPO=dokku/meatier
++++ [[ -z meatier ]]
++++ echo dokku/meatier
+++ IMAGE_REPO=dokku/meatier
+++ [[ -z latest ]]
+++ local IMAGE=dokku/meatier:latest
+++ verify_image dokku/meatier:latest
+++ declare 'desc=verify image existence'
+++ local IMAGE=dokku/meatier:latest
+++ docker inspect dokku/meatier:latest
+++ return 0
+++ echo dokku/meatier:latest
++ local IMAGE=dokku/meatier:latest
++ verify_app_name meatier
++ declare 'desc=verify app name format and app existence'
++ local APP=meatier
++ [[ ! -n meatier ]]
++ [[ ! meatier =~ ^[a-z].* ]]
++ [[ ! -d /home/dokku/meatier ]]
++ return 0
++ shift 2
++ [[ -z '' ]]
+++ config_get meatier DOKKU_RM_CONTAINER
+++ declare 'desc=get value of given config var'
+++ [[ meatier == \c\o\n\f\i\g\:\g\e\t ]]
+++ set -- config:get meatier DOKKU_RM_CONTAINER
+++ config_parse_args config:get meatier DOKKU_RM_CONTAINER
+++ declare 'desc=parse config plugin args'
+++ unset APP ENV_FILE DOKKU_CONFIG_TYPE DOKKU_CONFIG_RESTART DOKKU_CONFIG_EXPORT
+++ for var in '"$@"'
+++ [[ config:get == \-\-\g\l\o\b\a\l ]]
+++ [[ config:get == \-\-\n\o\-\r\e\s\t\a\r\t ]]
+++ [[ config:get == \-\-\e\x\p\o\r\t ]]
+++ [[ config:get == \-\-\s\h\e\l\l ]]
+++ for var in '"$@"'
+++ [[ meatier == \-\-\g\l\o\b\a\l ]]
+++ [[ meatier == \-\-\n\o\-\r\e\s\t\a\r\t ]]
+++ [[ meatier == \-\-\e\x\p\o\r\t ]]
+++ [[ meatier == \-\-\s\h\e\l\l ]]
+++ for var in '"$@"'
+++ [[ DOKKU_RM_CONTAINER == \-\-\g\l\o\b\a\l ]]
+++ [[ DOKKU_RM_CONTAINER == \-\-\n\o\-\r\e\s\t\a\r\t ]]
+++ [[ DOKKU_RM_CONTAINER == \-\-\e\x\p\o\r\t ]]
+++ [[ DOKKU_RM_CONTAINER == \-\-\s\h\e\l\l ]]
+++ SANITIZED_ARGS=($(get_sanitized_config_args "$@"))
++++ get_sanitized_config_args config:get meatier DOKKU_RM_CONTAINER
++++ local 'desc=return sanitized arguments for config plugin'
++++ SANITIZED_ARGS=("$@")
++++ local SANITIZED_ARGS
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--global/}")
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--no-restart/}")
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--export/}")
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--shell/}")
++++ echo config:get meatier DOKKU_RM_CONTAINER
+++ local SANITIZED_ARGS
+++ set -- config:get meatier DOKKU_RM_CONTAINER
+++ DOKKU_CONFIG_TYPE=app
+++ DOKKU_CONFIG_RESTART=true
+++ [[ app == \a\p\p ]]
+++ [[ -z meatier ]]
+++ verify_app_name meatier
+++ declare 'desc=verify app name format and app existence'
+++ local APP=meatier
+++ [[ ! -n meatier ]]
+++ [[ ! meatier =~ ^[a-z].* ]]
+++ [[ ! -d /home/dokku/meatier ]]
+++ return 0
+++ APP=meatier
+++ ENV_FILE=/home/dokku/meatier/ENV
+++ export APP ENV_FILE DOKKU_CONFIG_TYPE DOKKU_CONFIG_RESTART DOKKU_CONFIG_EXPORT
+++ SANITIZED_ARGS=($(get_sanitized_config_args "$@"))
++++ get_sanitized_config_args config:get meatier DOKKU_RM_CONTAINER
++++ local 'desc=return sanitized arguments for config plugin'
++++ SANITIZED_ARGS=("$@")
++++ local SANITIZED_ARGS
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--global/}")
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--no-restart/}")
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--export/}")
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--shell/}")
++++ echo config:get meatier DOKKU_RM_CONTAINER
+++ local SANITIZED_ARGS
+++ set -- config:get meatier DOKKU_RM_CONTAINER
+++ [[ -z meatier ]]
+++ config_create /home/dokku/meatier/ENV
+++ declare 'desc=create config env file'
+++ local ENV_FILE=/home/dokku/meatier/ENV
+++ [[ -f /home/dokku/meatier/ENV ]]
+++ [[ ! -s /home/dokku/meatier/ENV ]]
+++ local KEY=DOKKU_RM_CONTAINER
+++ sed -e 's/^'\''//' -e 's/'\''$//'
+++ cut -d= -f2-
+++ grep '^export DOKKU_RM_CONTAINER='
+++ grep -Eo 'export ([a-zA-Z_][a-zA-Z0-9_]*=.*)' /home/dokku/meatier/ENV
+++ true
++ local DOKKU_APP_RM_CONTAINER=
+++ config_get --global DOKKU_RM_CONTAINER
+++ declare 'desc=get value of given config var'
+++ [[ --global == \c\o\n\f\i\g\:\g\e\t ]]
+++ set -- config:get --global DOKKU_RM_CONTAINER
+++ config_parse_args config:get --global DOKKU_RM_CONTAINER
+++ declare 'desc=parse config plugin args'
+++ unset APP ENV_FILE DOKKU_CONFIG_TYPE DOKKU_CONFIG_RESTART DOKKU_CONFIG_EXPORT
+++ for var in '"$@"'
+++ [[ config:get == \-\-\g\l\o\b\a\l ]]
+++ [[ config:get == \-\-\n\o\-\r\e\s\t\a\r\t ]]
+++ [[ config:get == \-\-\e\x\p\o\r\t ]]
+++ [[ config:get == \-\-\s\h\e\l\l ]]
+++ for var in '"$@"'
+++ [[ --global == \-\-\g\l\o\b\a\l ]]
+++ ENV_FILE=/home/dokku/ENV
+++ DOKKU_CONFIG_TYPE=global
+++ DOKKU_CONFIG_RESTART=false
+++ [[ --global == \-\-\n\o\-\r\e\s\t\a\r\t ]]
+++ [[ --global == \-\-\e\x\p\o\r\t ]]
+++ [[ --global == \-\-\s\h\e\l\l ]]
+++ for var in '"$@"'
+++ [[ DOKKU_RM_CONTAINER == \-\-\g\l\o\b\a\l ]]
+++ [[ DOKKU_RM_CONTAINER == \-\-\n\o\-\r\e\s\t\a\r\t ]]
+++ [[ DOKKU_RM_CONTAINER == \-\-\e\x\p\o\r\t ]]
+++ [[ DOKKU_RM_CONTAINER == \-\-\s\h\e\l\l ]]
+++ SANITIZED_ARGS=($(get_sanitized_config_args "$@"))
++++ get_sanitized_config_args config:get --global DOKKU_RM_CONTAINER
++++ local 'desc=return sanitized arguments for config plugin'
++++ SANITIZED_ARGS=("$@")
++++ local SANITIZED_ARGS
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--global/}")
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--no-restart/}")
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--export/}")
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--shell/}")
++++ echo config:get '' DOKKU_RM_CONTAINER
+++ local SANITIZED_ARGS
+++ set -- config:get DOKKU_RM_CONTAINER
+++ DOKKU_CONFIG_TYPE=global
+++ DOKKU_CONFIG_RESTART=false
+++ [[ global == \a\p\p ]]
+++ export APP ENV_FILE DOKKU_CONFIG_TYPE DOKKU_CONFIG_RESTART DOKKU_CONFIG_EXPORT
+++ SANITIZED_ARGS=($(get_sanitized_config_args "$@"))
++++ get_sanitized_config_args config:get --global DOKKU_RM_CONTAINER
++++ local 'desc=return sanitized arguments for config plugin'
++++ SANITIZED_ARGS=("$@")
++++ local SANITIZED_ARGS
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--global/}")
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--no-restart/}")
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--export/}")
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--shell/}")
++++ echo config:get '' DOKKU_RM_CONTAINER
+++ local SANITIZED_ARGS
+++ set -- config:get DOKKU_RM_CONTAINER
+++ [[ -z DOKKU_RM_CONTAINER ]]
+++ config_create /home/dokku/ENV
+++ declare 'desc=create config env file'
+++ local ENV_FILE=/home/dokku/ENV
+++ [[ -f /home/dokku/ENV ]]
+++ [[ ! -s /home/dokku/ENV ]]
+++ local KEY=DOKKU_RM_CONTAINER
+++ sed -e 's/^'\''//' -e 's/'\''$//'
+++ cut -d= -f2-
+++ grep '^export DOKKU_RM_CONTAINER='
+++ grep -Eo 'export ([a-zA-Z_][a-zA-Z0-9_]*=.*)' /home/dokku/ENV
+++ true
++ local DOKKU_GLOBAL_RM_CONTAINER=
++ local DOKKU_RM_CONTAINER=
+++ plugn trigger docker-args-run meatier latest
+++ :
++ source /var/lib/dokku/plugins/available/config/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
+++ source /var/lib/dokku/core-plugins/available/common/functions
++++ set -eo pipefail
++++ [[ -n 1 ]]
++++ set -x
++ app_user_docker_args meatier latest
++ local APP=meatier
++ local STDIN
++ local DOKKU_APP_TYPE
++ local DOKKU_APP_USER
+++ cat
++ STDIN=
+++ config_get meatier DOKKU_APP_TYPE
+++ declare 'desc=get value of given config var'
+++ [[ meatier == \c\o\n\f\i\g\:\g\e\t ]]
+++ set -- config:get meatier DOKKU_APP_TYPE
+++ config_parse_args config:get meatier DOKKU_APP_TYPE
+++ declare 'desc=parse config plugin args'
+++ unset APP ENV_FILE DOKKU_CONFIG_TYPE DOKKU_CONFIG_RESTART DOKKU_CONFIG_EXPORT
+++ for var in '"$@"'
+++ [[ config:get == \-\-\g\l\o\b\a\l ]]
+++ [[ config:get == \-\-\n\o\-\r\e\s\t\a\r\t ]]
+++ [[ config:get == \-\-\e\x\p\o\r\t ]]
+++ [[ config:get == \-\-\s\h\e\l\l ]]
+++ for var in '"$@"'
+++ [[ meatier == \-\-\g\l\o\b\a\l ]]
+++ [[ meatier == \-\-\n\o\-\r\e\s\t\a\r\t ]]
+++ [[ meatier == \-\-\e\x\p\o\r\t ]]
+++ [[ meatier == \-\-\s\h\e\l\l ]]
+++ for var in '"$@"'
+++ [[ DOKKU_APP_TYPE == \-\-\g\l\o\b\a\l ]]
+++ [[ DOKKU_APP_TYPE == \-\-\n\o\-\r\e\s\t\a\r\t ]]
+++ [[ DOKKU_APP_TYPE == \-\-\e\x\p\o\r\t ]]
+++ [[ DOKKU_APP_TYPE == \-\-\s\h\e\l\l ]]
+++ SANITIZED_ARGS=($(get_sanitized_config_args "$@"))
++++ get_sanitized_config_args config:get meatier DOKKU_APP_TYPE
++++ local 'desc=return sanitized arguments for config plugin'
++++ SANITIZED_ARGS=("$@")
++++ local SANITIZED_ARGS
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--global/}")
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--no-restart/}")
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--export/}")
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--shell/}")
++++ echo config:get meatier DOKKU_APP_TYPE
+++ local SANITIZED_ARGS
+++ set -- config:get meatier DOKKU_APP_TYPE
+++ DOKKU_CONFIG_TYPE=app
+++ DOKKU_CONFIG_RESTART=true
+++ [[ app == \a\p\p ]]
+++ [[ -z meatier ]]
+++ verify_app_name meatier
+++ declare 'desc=verify app name format and app existence'
+++ local APP=meatier
+++ [[ ! -n meatier ]]
+++ [[ ! meatier =~ ^[a-z].* ]]
+++ [[ ! -d /home/dokku/meatier ]]
+++ return 0
+++ APP=meatier
+++ ENV_FILE=/home/dokku/meatier/ENV
+++ export APP ENV_FILE DOKKU_CONFIG_TYPE DOKKU_CONFIG_RESTART DOKKU_CONFIG_EXPORT
+++ SANITIZED_ARGS=($(get_sanitized_config_args "$@"))
++++ get_sanitized_config_args config:get meatier DOKKU_APP_TYPE
++++ local 'desc=return sanitized arguments for config plugin'
++++ SANITIZED_ARGS=("$@")
++++ local SANITIZED_ARGS
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--global/}")
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--no-restart/}")
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--export/}")
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--shell/}")
++++ echo config:get meatier DOKKU_APP_TYPE
+++ local SANITIZED_ARGS
+++ set -- config:get meatier DOKKU_APP_TYPE
+++ [[ -z meatier ]]
+++ config_create /home/dokku/meatier/ENV
+++ declare 'desc=create config env file'
+++ local ENV_FILE=/home/dokku/meatier/ENV
+++ [[ -f /home/dokku/meatier/ENV ]]
+++ [[ ! -s /home/dokku/meatier/ENV ]]
+++ local KEY=DOKKU_APP_TYPE
+++ sed -e 's/^'\''//' -e 's/'\''$//'
+++ cut -d= -f2-
+++ grep '^export DOKKU_APP_TYPE='
+++ grep -Eo 'export ([a-zA-Z_][a-zA-Z0-9_]*=.*)' /home/dokku/meatier/ENV
++ DOKKU_APP_TYPE=herokuish
+++ config_get meatier DOKKU_APP_USER
+++ declare 'desc=get value of given config var'
+++ [[ meatier == \c\o\n\f\i\g\:\g\e\t ]]
+++ set -- config:get meatier DOKKU_APP_USER
+++ config_parse_args config:get meatier DOKKU_APP_USER
+++ declare 'desc=parse config plugin args'
+++ unset APP ENV_FILE DOKKU_CONFIG_TYPE DOKKU_CONFIG_RESTART DOKKU_CONFIG_EXPORT
+++ for var in '"$@"'
+++ [[ config:get == \-\-\g\l\o\b\a\l ]]
+++ [[ config:get == \-\-\n\o\-\r\e\s\t\a\r\t ]]
+++ [[ config:get == \-\-\e\x\p\o\r\t ]]
+++ [[ config:get == \-\-\s\h\e\l\l ]]
+++ for var in '"$@"'
+++ [[ meatier == \-\-\g\l\o\b\a\l ]]
+++ [[ meatier == \-\-\n\o\-\r\e\s\t\a\r\t ]]
+++ [[ meatier == \-\-\e\x\p\o\r\t ]]
+++ [[ meatier == \-\-\s\h\e\l\l ]]
+++ for var in '"$@"'
+++ [[ DOKKU_APP_USER == \-\-\g\l\o\b\a\l ]]
+++ [[ DOKKU_APP_USER == \-\-\n\o\-\r\e\s\t\a\r\t ]]
+++ [[ DOKKU_APP_USER == \-\-\e\x\p\o\r\t ]]
+++ [[ DOKKU_APP_USER == \-\-\s\h\e\l\l ]]
+++ SANITIZED_ARGS=($(get_sanitized_config_args "$@"))
++++ get_sanitized_config_args config:get meatier DOKKU_APP_USER
++++ local 'desc=return sanitized arguments for config plugin'
++++ SANITIZED_ARGS=("$@")
++++ local SANITIZED_ARGS
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--global/}")
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--no-restart/}")
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--export/}")
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--shell/}")
++++ echo config:get meatier DOKKU_APP_USER
+++ local SANITIZED_ARGS
+++ set -- config:get meatier DOKKU_APP_USER
+++ DOKKU_CONFIG_TYPE=app
+++ DOKKU_CONFIG_RESTART=true
+++ [[ app == \a\p\p ]]
+++ [[ -z meatier ]]
+++ verify_app_name meatier
+++ declare 'desc=verify app name format and app existence'
+++ local APP=meatier
+++ [[ ! -n meatier ]]
+++ [[ ! meatier =~ ^[a-z].* ]]
+++ [[ ! -d /home/dokku/meatier ]]
+++ return 0
+++ APP=meatier
+++ ENV_FILE=/home/dokku/meatier/ENV
+++ export APP ENV_FILE DOKKU_CONFIG_TYPE DOKKU_CONFIG_RESTART DOKKU_CONFIG_EXPORT
+++ SANITIZED_ARGS=($(get_sanitized_config_args "$@"))
++++ get_sanitized_config_args config:get meatier DOKKU_APP_USER
++++ local 'desc=return sanitized arguments for config plugin'
++++ SANITIZED_ARGS=("$@")
++++ local SANITIZED_ARGS
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--global/}")
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--no-restart/}")
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--export/}")
++++ SANITIZED_ARGS=("${SANITIZED_ARGS[@]//--shell/}")
++++ echo config:get meatier DOKKU_APP_USER
+++ local SANITIZED_ARGS
+++ set -- config:get meatier DOKKU_APP_USER
+++ [[ -z meatier ]]
+++ config_create /home/dokku/meatier/ENV
+++ declare 'desc=create config env file'
+++ local ENV_FILE=/home/dokku/meatier/ENV
+++ [[ -f /home/dokku/meatier/ENV ]]
+++ [[ ! -s /home/dokku/meatier/ENV ]]
+++ local KEY=DOKKU_APP_USER
+++ sed -e 's/^'\''//' -e 's/'\''$//'
+++ cut -d= -f2-
+++ grep '^export DOKKU_APP_USER='
+++ grep -Eo 'export ([a-zA-Z_][a-zA-Z0-9_]*=.*)' /home/dokku/meatier/ENV
+++ true
++ DOKKU_APP_USER=
++ DOKKU_APP_USER=herokuishuser
++ [[ herokuish == \h\e\r\o\k\u\i\s\h ]]
++ local 'docker_args= --env=USER=herokuishuser'
++ echo -n ' --env=USER=herokuishuser'
++ source /var/lib/dokku/core-plugins/available/common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
++ [[ ! -n '' ]]
++ source /var/lib/dokku/core-plugins/available/common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
++ source /var/lib/dokku/plugins/available/config/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
+++ source /var/lib/dokku/core-plugins/available/common/functions
++++ set -eo pipefail
++++ [[ -n 1 ]]
++++ set -x
++ config_docker_args meatier latest
++ declare 'desc=config docker-args plugin trigger'
++ local 'trigger=/var/lib/dokku/plugins/enabled/config/docker-args-run config_docker_args'
+++ cat
++ local STDIN=
++ local APP=meatier
++ local IMAGE_TAG=latest
+++ get_deploying_app_image_name meatier latest
+++ declare 'desc=return deploying image identifier for a given app, tag tuple. validate if tag is presented'
+++ local APP=meatier
+++ local IMAGE_TAG=latest
+++ IMAGE_REPO=
+++ [[ -z meatier ]]
++++ plugn trigger deployed-app-repository meatier
++ source /var/lib/dokku/core-plugins/available/common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
++ [[ ! -n '' ]]
+++ local IMAGE_REMOTE_REPOSITORY=
++++ plugn trigger deployed-app-image-tag meatier
++ source /var/lib/dokku/core-plugins/available/common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
++ [[ ! -n '' ]]
+++ local NEW_IMAGE_TAG=
++++ plugn trigger deployed-app-image-repo meatier
++ source /var/lib/dokku/core-plugins/available/common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
++ [[ ! -n '' ]]
+++ local NEW_IMAGE_REPO=
+++ [[ -n '' ]]
+++ [[ -n '' ]]
+++ [[ -z '' ]]
++++ get_app_image_repo meatier
++++ declare 'desc=central definition of image repo pattern'
++++ local APP=meatier
++++ local IMAGE_REPO=dokku/meatier
++++ [[ -z meatier ]]
++++ echo dokku/meatier
+++ IMAGE_REPO=dokku/meatier
+++ [[ -z latest ]]
+++ local IMAGE=dokku/meatier:latest
+++ verify_image dokku/meatier:latest
+++ declare 'desc=verify image existence'
+++ local IMAGE=dokku/meatier:latest
+++ docker inspect dokku/meatier:latest
+++ return 0
+++ echo dokku/meatier:latest
++ local IMAGE=dokku/meatier:latest
++ local DOCKERFILE_ENV_FILE=/home/dokku/meatier/DOCKERFILE_ENV_FILE
++ verify_app_name meatier
++ declare 'desc=verify app name format and app existence'
++ local APP=meatier
++ [[ ! -n meatier ]]
++ [[ ! meatier =~ ^[a-z].* ]]
++ [[ ! -d /home/dokku/meatier ]]
++ return 0
++ is_image_herokuish_based dokku/meatier:latest
++ declare 'desc=returns true if app image is based on herokuish'
++ [[ ! -f /home/ubuntu/.circlerc ]]
++ local DOCKER_ARGS=--rm
++ docker run --label=dokku --entrypoint=/bin/sh --rm dokku/meatier:latest -c 'test -f /exec'
++ echo -n ''
++ docker_args meatier latest
++ declare 'desc=docker args plugin trigger'
++ local trigger=/var/lib/dokku/plugins/enabled/docker-options/docker-args-run
+++ cat
++ local STDIN=
++ local APP=meatier
++ local IMAGE_SOURCE_TYPE=latest
++ case "$0" in
++ local PHASE=RUN
++ local FILE_PREFIX=DOCKER_OPTIONS_
++ local PHASE_FILE_PATH=/home/dokku/meatier/DOCKER_OPTIONS_RUN
++ local output=
++ [[ -f /home/dokku/meatier/DOCKER_OPTIONS_RUN ]]
++ echo -n ''
++ local 'DOCKER_ARGS= --env=USER=herokuishuser'
++ [[ -n 1 ]]
++ local 'DOCKER_ARGS+= -e TRACE=true '
++ local DOKKU_RUN_OPTS=
++ [[ -n '' ]]
++ [[ -n '' ]]
++ has_tty
++ declare 'desc=return 0 if we have a tty'
+++ /usr/bin/tty
++ [[ /dev/pts/0 == \n\o\t\ \a\ \t\t\y ]]
++ return 0
++ DOKKU_RUN_OPTS+=' -i -t'
++ is_image_herokuish_based dokku/meatier:latest
++ declare 'desc=returns true if app image is based on herokuish'
++ [[ ! -f /home/ubuntu/.circlerc ]]
++ local DOCKER_ARGS=--rm
++ docker run --label=dokku --entrypoint=/bin/sh --rm dokku/meatier:latest -c 'test -f /exec'
++ local EXEC_CMD=/exec
++ DOKKU_QUIET_OUTPUT=1
++ extract_procfile meatier
++ declare 'desc=extracts procfile from app image'
++ local APP=meatier
++ local IMAGE_TAG=
+++ get_deploying_app_image_name meatier ''
+++ declare 'desc=return deploying image identifier for a given app, tag tuple. validate if tag is presented'
+++ local APP=meatier
+++ local IMAGE_TAG=
+++ IMAGE_REPO=
+++ [[ -z meatier ]]
++++ plugn trigger deployed-app-repository meatier
++ source /var/lib/dokku/core-plugins/available/common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
++ [[ ! -n '' ]]
+++ local IMAGE_REMOTE_REPOSITORY=
++++ plugn trigger deployed-app-image-tag meatier
++ source /var/lib/dokku/core-plugins/available/common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
++ [[ ! -n '' ]]
+++ local NEW_IMAGE_TAG=
++++ plugn trigger deployed-app-image-repo meatier
++ source /var/lib/dokku/core-plugins/available/common/functions
+++ set -eo pipefail
+++ [[ -n 1 ]]
+++ set -x
++ [[ ! -n '' ]]
+++ local NEW_IMAGE_REPO=
+++ [[ -n '' ]]
+++ [[ -n '' ]]
+++ [[ -z '' ]]
++++ get_app_image_repo meatier
++++ declare 'desc=central definition of image repo pattern'
++++ local APP=meatier
++++ local IMAGE_REPO=dokku/meatier
++++ [[ -z meatier ]]
++++ echo dokku/meatier
+++ IMAGE_REPO=dokku/meatier
+++ [[ -z '' ]]
+++ IMAGE_TAG=latest
+++ local IMAGE=dokku/meatier:latest
+++ verify_image dokku/meatier:latest
+++ declare 'desc=verify image existence'
+++ local IMAGE=dokku/meatier:latest
+++ docker inspect dokku/meatier:latest
+++ return 0
+++ echo dokku/meatier:latest
++ local IMAGE=dokku/meatier:latest
++ local DOKKU_PROCFILE=/home/dokku/meatier/DOKKU_PROCFILE
++ verify_app_name meatier
++ declare 'desc=verify app name format and app existence'
++ local APP=meatier
++ [[ ! -n meatier ]]
++ [[ ! meatier =~ ^[a-z].* ]]
++ [[ ! -d /home/dokku/meatier ]]
++ return 0
++ remove_procfile meatier
++ declare 'desc=removes DOKKU_PROCFILE'
++ local APP=meatier
++ local DOKKU_PROCFILE=/home/dokku/meatier/DOKKU_PROCFILE
++ [[ -f /home/dokku/meatier/DOKKU_PROCFILE ]]
++ copy_from_image dokku/meatier:latest Procfile /home/dokku/meatier/DOKKU_PROCFILE
++ [[ -f /home/dokku/meatier/DOKKU_PROCFILE ]]
++ dokku_log_info1_quiet 'App Procfile file found (/home/dokku/meatier/DOKKU_PROCFILE)'
++ declare 'desc=log info1 formatter (with quiet option)'
++ [[ -z 1 ]]
++ return 0
++ POTENTIAL_PROCFILE_KEY=export
+++ get_cmd_from_procfile meatier export
+++ declare 'desc=parse cmd from app Procfile'
+++ local APP=meatier
+++ local PROC_TYPE=export
+++ local DOKKU_PROCFILE=/home/dokku/meatier/DOKKU_PROCFILE
+++ verify_app_name meatier
+++ declare 'desc=verify app name format and app existence'
+++ local APP=meatier
+++ [[ ! -n meatier ]]
+++ [[ ! meatier =~ ^[a-z].* ]]
+++ [[ ! -d /home/dokku/meatier ]]
+++ return 0
+++ [[ -f /home/dokku/meatier/DOKKU_PROCFILE ]]
+++ local line
+++ local name
+++ local command
+++ read line
+++ [[ -z web: npm start ]]
+++ [[ web: npm start == \#* ]]
++++ strip_inline_comments 'web: npm start'
++++ declare 'desc=removes bash-style comment from input line'
++++ local 'line=web: npm start'
++++ local 'stripped_line=web: npm start'
++++ echo 'web: npm start'
+++ line='web: npm start'
+++ name=web
+++ command='npm start'
+++ [[ web == \e\x\p\o\r\t ]]
+++ read line
+++ [[ -n '' ]]
+++ echo ''
++ PROC_CMD=
++ remove_procfile meatier
++ declare 'desc=removes DOKKU_PROCFILE'
++ local APP=meatier
++ local DOKKU_PROCFILE=/home/dokku/meatier/DOKKU_PROCFILE
++ [[ -f /home/dokku/meatier/DOKKU_PROCFILE ]]
++ rm -f /home/dokku/meatier/DOKKU_PROCFILE
++ '[' '!' -z '' ']'
++ docker run --label=dokku -i -t --env=USER=herokuishuser -e TRACE=true dokku/meatier:latest /exec export /home/seth/.ssh
++ [[ -d /tmp/app ]]
++ cmd-export paths
++ declare 'desc=Exports a function as a command'
++ declare fn=paths as=paths
++ local ns=
+++ cmd-list-ns
+++ sort
+++ grep -v :
+++ for k in '"${!CMDS[@]}"'
+++ echo :help
++ CMDS["$ns:${as/#$ns-/}"]=paths
++ cmd-export version
++ declare 'desc=Exports a function as a command'
++ declare fn=version as=version
++ local ns=
+++ cmd-list-ns
+++ sort
+++ grep -v :
+++ for k in '"${!CMDS[@]}"'
+++ echo :help
+++ for k in '"${!CMDS[@]}"'
+++ echo :paths
++ CMDS["$ns:${as/#$ns-/}"]=version
++ cmd-export herokuish-test test
++ declare 'desc=Exports a function as a command'
++ declare fn=herokuish-test as=test
++ local ns=
+++ cmd-list-ns
+++ sort
+++ grep -v :
+++ for k in '"${!CMDS[@]}"'
+++ echo :version
+++ for k in '"${!CMDS[@]}"'
+++ echo :help
+++ for k in '"${!CMDS[@]}"'
+++ echo :paths
++ CMDS["$ns:${as/#$ns-/}"]=herokuish-test
++ cmd-export-ns buildpack 'Use and install buildpacks'
++ declare ns=buildpack 'desc=Use and install buildpacks'
++ eval 'buildpack() { 
+		declare desc="Use and install buildpacks"
+		cmd-ns buildpack "$@"; 
+	}'
++ cmd-export buildpack
++ declare 'desc=Exports a function as a command'
++ declare fn=buildpack as=buildpack
++ local ns=
+++ cmd-list-ns
+++ sort
+++ grep -v :
+++ for k in '"${!CMDS[@]}"'
+++ echo :version
+++ for k in '"${!CMDS[@]}"'
+++ echo :help
+++ for k in '"${!CMDS[@]}"'
+++ echo :test
+++ for k in '"${!CMDS[@]}"'
+++ echo :paths
++ CMDS["$ns:${as/#$ns-/}"]=buildpack
++ CMDS["$1"]=buildpack
++ cmd-export buildpack-build
++ declare 'desc=Exports a function as a command'
++ declare fn=buildpack-build as=buildpack-build
++ local ns=
+++ cmd-list-ns
+++ for k in '"${!CMDS[@]}"'
+++ echo :version
+++ for k in '"${!CMDS[@]}"'
+++ echo :help
+++ for k in '"${!CMDS[@]}"'
+++ echo :test
+++ for k in '"${!CMDS[@]}"'
+++ echo :buildpack
+++ for k in '"${!CMDS[@]}"'
+++ echo :paths
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack
+++ grep -v :
+++ sort
++ for n in '$(cmd-list-ns)'
++ echo buildpack-build
++ grep '^buildpack-'
++ ns=buildpack
++ CMDS["$ns:${as/#$ns-/}"]=buildpack-build
++ cmd-export buildpack-install
++ declare 'desc=Exports a function as a command'
++ declare fn=buildpack-install as=buildpack-install
++ local ns=
+++ cmd-list-ns
+++ sort
+++ grep -v :
+++ for k in '"${!CMDS[@]}"'
+++ echo :version
+++ for k in '"${!CMDS[@]}"'
+++ echo :help
+++ for k in '"${!CMDS[@]}"'
+++ echo :test
+++ for k in '"${!CMDS[@]}"'
+++ echo :buildpack
+++ for k in '"${!CMDS[@]}"'
+++ echo :paths
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:build
++ for n in '$(cmd-list-ns)'
++ grep '^buildpack-'
++ echo buildpack-install
++ ns=buildpack
++ CMDS["$ns:${as/#$ns-/}"]=buildpack-install
++ cmd-export buildpack-list
++ declare 'desc=Exports a function as a command'
++ declare fn=buildpack-list as=buildpack-list
++ local ns=
+++ cmd-list-ns
+++ sort
+++ grep -v :
+++ for k in '"${!CMDS[@]}"'
+++ echo :version
+++ for k in '"${!CMDS[@]}"'
+++ echo :help
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:install
+++ for k in '"${!CMDS[@]}"'
+++ echo :test
+++ for k in '"${!CMDS[@]}"'
+++ echo :buildpack
+++ for k in '"${!CMDS[@]}"'
+++ echo :paths
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:build
++ for n in '$(cmd-list-ns)'
++ grep '^buildpack-'
++ echo buildpack-list
++ ns=buildpack
++ CMDS["$ns:${as/#$ns-/}"]=buildpack-list
++ cmd-export-ns slug 'Manage application slugs'
++ declare ns=slug 'desc=Manage application slugs'
++ eval 'slug() { 
+		declare desc="Manage application slugs"
+		cmd-ns slug "$@"; 
+	}'
++ cmd-export slug
++ declare 'desc=Exports a function as a command'
++ declare fn=slug as=slug
++ local ns=
+++ cmd-list-ns
+++ for k in '"${!CMDS[@]}"'
+++ ++ echo :version
+sort
+++ for k in '"${!CMDS[@]}"'
+++ echo :help
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:install
+++ for k in '"${!CMDS[@]}"'
+++ echo :test
+++ for k in '"${!CMDS[@]}"'
+++ echo :buildpack
+++ for k in '"${!CMDS[@]}"'
+++ echo :paths
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:list
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:build
+++ grep -v :
++ for n in '$(cmd-list-ns)'
++ grep '^buildpack-'
++ echo slug
++ CMDS["$ns:${as/#$ns-/}"]=slug
++ CMDS["$1"]=slug
++ cmd-export slug-import
++ declare 'desc=Exports a function as a command'
++ declare fn=slug-import as=slug-import
++ local ns=
+++ cmd-list-ns
+++ sort
+++ grep -v :
+++ for k in '"${!CMDS[@]}"'
+++ echo :version
+++ for k in '"${!CMDS[@]}"'
+++ echo :help
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:install
+++ for k in '"${!CMDS[@]}"'
+++ echo :test
+++ for k in '"${!CMDS[@]}"'
+++ echo :buildpack
+++ for k in '"${!CMDS[@]}"'
+++ echo :paths
+++ for k in '"${!CMDS[@]}"'
+++ echo slug
+++ for k in '"${!CMDS[@]}"'
+++ echo :slug
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:list
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:build
++ for n in '$(cmd-list-ns)'
++ grep '^buildpack-'
++ echo slug-import
++ for n in '$(cmd-list-ns)'
++ grep '^slug-'
++ echo slug-import
++ ns=slug
++ CMDS["$ns:${as/#$ns-/}"]=slug-import
++ cmd-export slug-generate
++ declare 'desc=Exports a function as a command'
++ declare fn=slug-generate as=slug-generate
++ local ns=
+++ cmd-list-ns
+++ sort
+++ grep -v :
+++ for k in '"${!CMDS[@]}"'
+++ echo :version
+++ for k in '"${!CMDS[@]}"'
+++ echo :help
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:install
+++ for k in '"${!CMDS[@]}"'
+++ echo :test
+++ for k in '"${!CMDS[@]}"'
+++ echo :buildpack
+++ for k in '"${!CMDS[@]}"'
+++ echo :paths
+++ for k in '"${!CMDS[@]}"'
+++ echo slug
+++ for k in '"${!CMDS[@]}"'
+++ echo :slug
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack
+++ for k in '"${!CMDS[@]}"'
+++ echo slug:import
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:list
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:build
++ for n in '$(cmd-list-ns)'
++ grep '^buildpack-'
++ echo slug-generate
++ for n in '$(cmd-list-ns)'
++ grep '^slug-'
++ echo slug-generate
++ ns=slug
++ CMDS["$ns:${as/#$ns-/}"]=slug-generate
++ cmd-export slug-export
++ declare 'desc=Exports a function as a command'
++ declare fn=slug-export as=slug-export
++ local ns=
+++ cmd-list-ns
+++ sort
+++ grep -v :
+++ for k in '"${!CMDS[@]}"'
+++ echo :version
+++ for k in '"${!CMDS[@]}"'
+++ echo :help
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:install
+++ for k in '"${!CMDS[@]}"'
+++ echo :test
+++ for k in '"${!CMDS[@]}"'
+++ echo slug:generate
+++ for k in '"${!CMDS[@]}"'
+++ echo :buildpack
+++ for k in '"${!CMDS[@]}"'
+++ echo :paths
+++ for k in '"${!CMDS[@]}"'
+++ echo slug
+++ for k in '"${!CMDS[@]}"'
+++ echo :slug
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack
+++ for k in '"${!CMDS[@]}"'
+++ echo slug:import
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:list
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:build
++ for n in '$(cmd-list-ns)'
++ grep '^buildpack-'
++ echo slug-export
++ for n in '$(cmd-list-ns)'
++ grep '^slug-'
++ echo slug-export
++ ns=slug
++ CMDS["$ns:${as/#$ns-/}"]=slug-export
++ cmd-export-ns procfile 'Use Procfiles and run app commands'
++ declare ns=procfile 'desc=Use Procfiles and run app commands'
++ eval 'procfile() { 
+		declare desc="Use Procfiles and run app commands"
+		cmd-ns procfile "$@"; 
+	}'
++ cmd-export procfile
++ declare 'desc=Exports a function as a command'
++ declare fn=procfile as=procfile
++ local ns=
+++ cmd-list-ns
+++ for k in '"${!CMDS[@]}"'
+++ echo :version
+++ for k in '"${!CMDS[@]}"'
+++ echo :help
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:install
+++ for k in '"${!CMDS[@]}"'
+++ echo :test
+++ for k in '"${!CMDS[@]}"'
+++ echo slug:generate
+++ for k in '"${!CMDS[@]}"'
+++ echo :buildpack
+++ for k in '"${!CMDS[@]}"'
+++ echo :paths
+++ for k in '"${!CMDS[@]}"'
+++ echo slug
+++ for k in '"${!CMDS[@]}"'
+++ echo :slug
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack
+++ for k in '"${!CMDS[@]}"'
+++ echo slug:import
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:list
+++ for k in '"${!CMDS[@]}"'
+++ echo slug:export
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:build
+++ sort
+++ grep -v :
++ for n in '$(cmd-list-ns)'
++ grep '^buildpack-'
++ echo procfile
++ for n in '$(cmd-list-ns)'
++ grep '^slug-'
++ echo procfile
++ CMDS["$ns:${as/#$ns-/}"]=procfile
++ CMDS["$1"]=procfile
++ cmd-export procfile-start
++ declare 'desc=Exports a function as a command'
++ declare fn=procfile-start as=procfile-start
++ local ns=
+++ cmd-list-ns
+++ sort
+++ grep -v :
+++ for k in '"${!CMDS[@]}"'
+++ echo :version
+++ for k in '"${!CMDS[@]}"'
+++ echo :help
+++ for k in '"${!CMDS[@]}"'
+++ echo :procfile
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:install
+++ for k in '"${!CMDS[@]}"'
+++ echo :test
+++ for k in '"${!CMDS[@]}"'
+++ echo slug:generate
+++ for k in '"${!CMDS[@]}"'
+++ echo :buildpack
+++ for k in '"${!CMDS[@]}"'
+++ echo :paths
+++ for k in '"${!CMDS[@]}"'
+++ echo slug
+++ for k in '"${!CMDS[@]}"'
+++ echo :slug
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack
+++ for k in '"${!CMDS[@]}"'
+++ echo slug:import
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:list
+++ for k in '"${!CMDS[@]}"'
+++ echo slug:export
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:build
+++ for k in '"${!CMDS[@]}"'
+++ echo procfile
++ for n in '$(cmd-list-ns)'
++ grep '^buildpack-'
++ echo procfile-start
++ for n in '$(cmd-list-ns)'
++ grep '^procfile-'
++ echo procfile-start
++ ns=procfile
++ for n in '$(cmd-list-ns)'
++ grep '^slug-'
++ echo procfile-start
++ CMDS["$ns:${as/#$ns-/}"]=procfile-start
++ cmd-export procfile-exec
++ declare 'desc=Exports a function as a command'
++ declare fn=procfile-exec as=procfile-exec
++ local ns=
+++ cmd-list-ns
+++ sort
+++ grep -v :
+++ for k in '"${!CMDS[@]}"'
+++ echo :version
+++ for k in '"${!CMDS[@]}"'
+++ echo :help
+++ for k in '"${!CMDS[@]}"'
+++ echo :procfile
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:install
+++ for k in '"${!CMDS[@]}"'
+++ echo procfile:start
+++ for k in '"${!CMDS[@]}"'
+++ echo :test
+++ for k in '"${!CMDS[@]}"'
+++ echo slug:generate
+++ for k in '"${!CMDS[@]}"'
+++ echo :buildpack
+++ for k in '"${!CMDS[@]}"'
+++ echo :paths
+++ for k in '"${!CMDS[@]}"'
+++ echo slug
+++ for k in '"${!CMDS[@]}"'
+++ echo :slug
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack
+++ for k in '"${!CMDS[@]}"'
+++ echo slug:import
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:list
+++ for k in '"${!CMDS[@]}"'
+++ echo slug:export
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:build
+++ for k in '"${!CMDS[@]}"'
+++ echo procfile
++ for n in '$(cmd-list-ns)'
++ echo procfile-exec
++ grep '^buildpack-'
++ for n in '$(cmd-list-ns)'
++ grep '^procfile-'
++ echo procfile-exec
++ ns=procfile
++ for n in '$(cmd-list-ns)'
++ echo procfile-exec
++ grep '^slug-'
++ CMDS["$ns:${as/#$ns-/}"]=procfile-exec
++ cmd-export procfile-parse
++ declare 'desc=Exports a function as a command'
++ declare fn=procfile-parse as=procfile-parse
++ local ns=
+++ cmd-list-ns
+++ for k in '"${!CMDS[@]}"'
+++ echo :version
+++ for k in '"${!CMDS[@]}"'
+++ echo :help
+++ for k in '"${!CMDS[@]}"'
+++ echo :procfile
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:install
+++ for k in '"${!CMDS[@]}"'
+++ echo procfile:start
+++ for k in '"${!CMDS[@]}"'
+++ echo :test
+++ for k in '"${!CMDS[@]}"'
+++ echo slug:generate
+++ for k in '"${!CMDS[@]}"'
+++ echo :buildpack
+++ for k in '"${!CMDS[@]}"'
+++ echo :paths
+++ for k in '"${!CMDS[@]}"'
+++ echo slug
+++ for k in '"${!CMDS[@]}"'
+++ echo :slug
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack
+++ for k in '"${!CMDS[@]}"'
+++ echo slug:import
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:list
+++ for k in '"${!CMDS[@]}"'
+++ echo slug:export
+++ for k in '"${!CMDS[@]}"'
+++ echo buildpack:build
+++ for k in '"${!CMDS[@]}"'
+++ echo procfile:exec
+++ for k in '"${!CMDS[@]}"'
+++ echo procfile
+++ sort
+++ grep -v :
++ for n in '$(cmd-list-ns)'
++ grep '^buildpack-'
++ echo procfile-parse
++ for n in '$(cmd-list-ns)'
++ grep '^procfile-'
++ echo procfile-parse
++ ns=procfile
++ for n in '$(cmd-list-ns)'
++ grep '^slug-'
++ echo procfile-parse
++ CMDS["$ns:${as/#$ns-/}"]=procfile-parse
++ case "$SELF" in
++ procfile-exec export /home/seth/.ssh
++ declare 'desc=Run as unprivileged user with Heroku-like env'
++ [[ -n herokuishuser ]]
++ procfile-setup-home
++ export HOME=/app
++ HOME=/app
++ usermod --home /app herokuishuser
++ xargs -0 -r chown herokuishuser:herokuishuser
++ find /app '(' '!' -user herokuishuser -o '!' -group herokuishuser ')' -print0
++ procfile-load-env
++ [[ -d /tmp/env ]]
+++ ls /tmp/env
++ for e in '$(ls $env_path)'
+++ cat /tmp/env/CURL_CONNECT_TIMEOUT
++ export CURL_CONNECT_TIMEOUT=5
++ CURL_CONNECT_TIMEOUT=5
++ for e in '$(ls $env_path)'
+++ cat /tmp/env/CURL_TIMEOUT
++ export CURL_TIMEOUT=30
++ CURL_TIMEOUT=30
++ for e in '$(ls $env_path)'
+++ cat /tmp/env/DOKKU_APP_TYPE
++ export DOKKU_APP_TYPE=herokuish
++ DOKKU_APP_TYPE=herokuish
++ procfile-load-profile
++ shopt -s nullglob
++ mkdir -p /app/.profile.d
++ for file in '$app_path/.profile.d/*.sh'
++ source /app/.profile.d/00-global-env.sh
+++ export CURL_CONNECT_TIMEOUT=5
+++ CURL_CONNECT_TIMEOUT=5
+++ export CURL_TIMEOUT=30
+++ CURL_TIMEOUT=30
++ for file in '$app_path/.profile.d/*.sh'
++ source /app/.profile.d/01-app-env.sh
+++ export DOKKU_APP_TYPE=herokuish
+++ DOKKU_APP_TYPE=herokuish
++ for file in '$app_path/.profile.d/*.sh'
++ source /app/.profile.d/nodejs.sh
+++ export PATH=/app/.heroku/node/bin:/app/.heroku/yarn/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/app/bin:/app/node_modules/.bin
+++ PATH=/app/.heroku/node/bin:/app/.heroku/yarn/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/app/bin:/app/node_modules/.bin
+++ export NODE_HOME=/app/.heroku/node
+++ NODE_HOME=/app/.heroku/node
+++ export NODE_ENV=production
+++ NODE_ENV=production
+++ calculate_concurrency
++++ detect_memory 512
++++ local default=512
+++++ ulimit -u
++++ local limit=unlimited
++++ case $limit in
++++ echo 512
+++ MEMORY_AVAILABLE=512
+++ WEB_MEMORY=512
+++ WEB_CONCURRENCY=1
+++ ((  WEB_CONCURRENCY < 1  ))
+++ WEB_CONCURRENCY=1
+++ export MEMORY_AVAILABLE=512
+++ MEMORY_AVAILABLE=512
+++ export WEB_MEMORY=512
+++ WEB_MEMORY=512
+++ export WEB_CONCURRENCY=1
+++ WEB_CONCURRENCY=1
+++ '[' '' = true ']'
++ shopt -u nullglob
++ hash -r
++ cd /app
+++ eval echo export /home/seth/.ssh
++++ echo export /home/seth/.ssh
++ exec setuidgid herokuishuser export /home/seth/.ssh
+setuidgid: fatal: unable to run export: file does not exist
