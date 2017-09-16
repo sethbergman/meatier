@@ -37,6 +37,8 @@ Some of my chief complaints with Meteor
 | Server            | Node 0.10.41                                                    | Node 5                                                              | Faster, maintained, not a dinosaur...                               |                             |
  
 ##Installation
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/sethbergman/meatier.svg)](https://greenkeeper.io/)
 - `brew install rethinkdb`
 - make sure you are using webpack@2.x (not a v1 installed globally)
 - `rethinkdb` (in second terminal window)
