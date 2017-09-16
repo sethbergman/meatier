@@ -4,6 +4,7 @@ node_modules
 npm-debug.log
 build
 rethinkdb_data
+rethinkdb_export
 stats.json
 cat
 snap/snapcraft.yml
