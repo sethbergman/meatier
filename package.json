@@ -22,7 +22,9 @@
     "update:db": "node ./src/server/database/setupDB.babel.js true",
     "test": "NODE_ENV=testing ava ./src/**/__tests__/**/*.js --verbose",
     "lint": "xo --fix 'src/**/*.js' 'tests/*.js' 'webpack/*.js'",
-    "profile": "NODE_ENV=production webpack --config ./webpack/prod.babel.js --profile --json > stats.json"
+    "profile": "NODE_ENV=production webpack --config ./webpack/prod.babel.js --profile --json > stats.json",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Matt Krick <matt.krick@gmail.com>",
   "license": "MIT",
@@ -115,12 +117,14 @@
     "redux-thunk": "2.1.0",
     "rethinkdbdash": "2.3.6",
     "socketcluster": "4.6.1",
-    "socketcluster-client": "4.3.17"
+    "socketcluster-client": "4.3.17",
+    "snyk": "^1.46.0"
   },
   "xo": {
     "extends": "xo-meatier"
   },
   "snapcraft": {
     "meatier": "snap/snapcraft.yml"
-  }
+  },
+  "snyk": true
 }
