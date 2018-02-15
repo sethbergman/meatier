@@ -89,8 +89,8 @@
     "graphql": "0.6.0",
     "immutable": "3.8.1",
     "isomorphic-fetch": "2.2.1",
-    "joi": "8.1.0",
-    "jsonwebtoken": "6.2.0",
+    "joi": "13.0.0",
+    "jsonwebtoken": "8.0.0",
     "jwt-decode": "2.0.1",
     "material-ui": "0.15.0",
     "node-env-flag": "0.1.0",
@@ -111,10 +111,10 @@
     "redux-logger": "2.6.1",
     "redux-optimistic-ui": "0.4.0",
     "redux-promise": "0.5.3",
-    "redux-socket-cluster": "0.5.1",
+    "redux-socket-cluster": "0.7.0",
     "redux-thunk": "2.1.0",
     "rethinkdbdash": "2.3.6",
-    "socketcluster": "4.6.1",
+    "socketcluster": "5.13.0",
     "socketcluster-client": "4.3.17"
   },
   "xo": {
